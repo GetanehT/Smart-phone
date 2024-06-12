@@ -20,7 +20,7 @@ body {
 
 /*header*/
 header {
-background-color: #ffffff;
+background-color: #f5cb11;
 padding: 0 1rem;
 position: fixed;
 z-index: 99;
@@ -60,7 +60,7 @@ h1{
 /* navbar style with deopdown toggle*/
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #a50a0a;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -83,35 +83,63 @@ display: block;
 }
 /*main contetn*/
 main {
- background-color: lightblue;
+ background-color: rgb(28, 76, 92);
  flex: 1 0 auto;
- margin-top: 47px;
+  margin-top: 47px;
+  padding: 1rem;
 }
 
+/* background image home*/
+#smart-image{
+background: url('..//images/mobile_title.jpg') no-repeat center center/cover;
+height: 600px;
+ width:1
+}
+
+
+/* image gallery*/
+.image-gallery  {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    
+
+ }
+
+ .image-gallery  img {
+    width: calc(33.33%-40px);
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s;
+    border: 2px solid rgb(251, 249, 255);
+ }
+
+
+ .image-gallery img:hover {
+    transform: scale(1.1);
+
+ }
 /*footer*/
 
    /* footer */
-footer {
-    background-color: #f3f7f8;
-    padding: 20px 0;
-    text-align: center;
-    box-shadow: 0 -2px 2px #3a3a3a;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
-
+  
 #social-network {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     list-style-type: none;
+    background-color: #09a731;
+    
 }
+
 
 #social-network i {
     font-size: 200%;
-    padding: 5%;
+    padding: 10%;
     color: #3a3a3a;
 }
 
@@ -132,7 +160,7 @@ footer {
     #menu > li {
         padding-left: 1rem;
     }
-    .nav-toggle-label {
+    .nav-toggle {
         display: none;
    }
    #logo {
