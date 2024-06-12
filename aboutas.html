@@ -40,8 +40,8 @@
             <section id="mobile">
 <!-- Main content -->
 <main>
-    <section id="signup">
-        <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+    <section id="feedback">
+        <form id="feedback-form" method="POST" action="https://formdump.codeinstitute.net">
             <h2><i class="fa-solid fa-heartbeat"></i> Let's get you signed up!</h2>
             <label for="first-name">First Name</label>
             <input type="text" name="first_name" id="first-name" class="text-input" required>
@@ -52,9 +52,61 @@
             <label for="email-address">Email Address</label>
             <input type="email" name="email_address" id="email-address" class="text-input" required>
             <br>
-           
+
+            <div>
+            <label for="feedback">Feed back</label>
+            <input type="text" name="feedback" id="feedback" class="text-input" required>
+        </div>
         </form>
+        <section id="contact">
+            <h2 class="text-center">Contact</h2>
+            <div class="contact-boxes-container flex horizontal-center gap-20">
+                <div class="contact-box">
+                <h3 class="text-center">Open times</h3>
+        
+                <table class="text-center">
+                    <tr>
+                        <th></th>
+                        <th>Open</th>
+                        <th>Close</th>	
+                    </tr>
+                    <tr>
+                        <td>Mon - sat</td>
+                        <td>09:00</td>
+                        <td>21:00</td>
+                    </tr>
+                    <tr>
+                        <td>Weekend</td>
+                        <td>10:00</td>
+                        <td>20:00</td>
+                    </tr>	
+                </table>
+            </div>
+            <div class="text-right contact-box last">
+                <h3>Get in touch</h3>
+        
+                <div>
+                <span class="bold">Phone: </span>
+                <span>+49123456789</span>
+                </div>
+                <div>
+                <span class="bold">Email: </span>
+                <span>email@smartphonedeal.com</span>
+                </div>
+            </div>
+            <div class="text-center contact-box vertical-bottom">
+                <h3>Address</h3>
+                <p>Coders Coffeehouse,<br>42 Coffeebean street,<br>Dublin</p>
+            </div>
+            </div>
+            
+          </section>
+        
     </section>
+    <section id="map-wrapper">
+        <iframe id="map" src="https://maps.app.goo.gl/iuBTNkcWow4pFpVL6" width="100%" height="300"></iframe>
+      </section>
+    
 </main>
 
             </section>
