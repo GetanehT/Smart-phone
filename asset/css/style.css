@@ -83,7 +83,7 @@ display: block;
 }
 /*main contetn*/
 main {
- background-color: rgb(28, 76, 92);
+
  flex: 1 0 auto;
   margin-top: 47px;
   padding: 1rem;
@@ -94,6 +94,64 @@ main {
 background: url('..//images/photo-1523371683773-affcb4a2e39e.avif') no-repeat center center/cover;
 height: 600px;
  width:1
+}
+.overlay {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #333;
+}
+
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+section p:last-child {
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #aaa;
 }
 
 
@@ -204,6 +262,19 @@ height: 600px;
 
 /*media query tablets and larger 768px and up)*/
 @media screen and (min-width: 768px) {
+    @media (max-width: 768px) {
+        .container {
+            width: 95%;
+        }
+    
+        header h1 {
+            font-size: 2em;
+        }
+    
+        section h2 {
+            font-size: 1.5em;
+        }
+    }
     
     nav {
         display: block;
