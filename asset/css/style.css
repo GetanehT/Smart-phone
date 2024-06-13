@@ -102,14 +102,33 @@ main {
     border-radius: 8px;
 }
 
+/*ihone*/
+
+#iphone  h1  {
+  color: #ffffff;
+  font-weight: bold;;
+  font: 2rem;
+}
+
+#iphone p {
+    color: #eee;
+}
 .container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+    width: 90%; /* Adjust width for smaller screens */
+    max-width: 400px; /* Example of setting a maximum width */
+    margin: 20px auto; /* Center horizontally with 20px margin */
     padding: 20px;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+  }
+  
+  
+
+.container p {
+     
+    font-weight: bold;
+    font-size: medium;
 }
 
 header {
@@ -206,6 +225,8 @@ footer {
     transform: translateY(0);
 }
 
+/*feed back form*/
+
 #feedback-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
@@ -228,6 +249,19 @@ footer {
     border-radius: 2px;
     padding: 0 5px;
 }
+#info {
+    width: 100%; 
+    max-width: 400px; 
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+   
+    
+  }
+  
+
+
 
 
    /* footer */
@@ -238,7 +272,7 @@ footer {
     display: flex;
     justify-content:space-evenly;
     list-style-type: none;
-    background-color: #09a731;
+    background-color: #fcfdff;
     
 }
 
@@ -290,12 +324,19 @@ footer {
    main {
     margin-top: 79px ;
    }
+   @media (min-width: 768px) {
+    #info {
+        position: static; /* Reset position for larger screens */
+        margin: 20px auto;
+  }
+  .container {
+    width: 80%; /* Adjust width for larger screens */
+    margin-top: 0; /* Reset margin-top for larger screens */
+  }
+  
 }
 
-#mobile {
-    background: url("../images/photo-1574678720375-897c87118486.avif");
-    width: 100%;
-}
+
 
 /*Form */
     #feedback {
@@ -320,26 +361,15 @@ footer {
         display: block;
     }
 
-    #info {
-            width: 20%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            position:sticky;
-            float:right;
-            align-items: flex-end;
-            justify-self: end;
-            
-    
-    
-    }
+}
 /*media Queries laptop and upwards*/
 @media screen and  (min-widt: 992px) {
     #menu  a:hover {
         border-bottom: 1px solid;
     }
+    @media (min-width: 768px) {
+        .container {
+          width: 30%; /* Adjust width for larger screens */
+        }
+      }
 }
-    
