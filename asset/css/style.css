@@ -9,7 +9,9 @@
 }
  /* General styles*/ 
 body {
-  min-height: 100vh;
+    background: url('..//images/photo-1523371683773-affcb4a2e39e.avif') no-repeat center center/cover;
+    
+    min-height: 100vh;
   display: flex;
   flex-direction: column;
   
@@ -19,7 +21,7 @@ body {
 
 /*header*/
 header {
-background-color: silver;
+background-color: #fff;
 padding: 0 1rem;
 position: fixed;
 z-index: 99;
@@ -91,9 +93,8 @@ main {
 
 /* background image home*/
 #smart-image{
-background: url('..//images/photo-1523371683773-affcb4a2e39e.avif') no-repeat center center/cover;
-height: 600px;
- width:1
+
+ width:100%;
 }
 .overlay {
     background-color: rgba(255, 255, 255, 0.8); 
@@ -209,6 +210,7 @@ footer {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
+    flex: end;
 }
 
 #feedback-form>h2 {
@@ -227,18 +229,6 @@ footer {
     padding: 0 5px;
 }
 
-/* 
-#map-wrapper {
-
-    height: 100px;
-    margin-bottom: 55px;
-}
-
-*#map {
-    height: 5opx;
-    width: 100%;
-    border: none;
-}*/
 
    /* footer */
   
@@ -311,6 +301,7 @@ footer {
     #feedback {
         background-position: center;
         position: relative;
+        width: 100%;
     }
 
     #feedback-form {
@@ -322,6 +313,28 @@ footer {
 
     .text-input:hover {
         border-color: #f16c6b;
+    }
+
+    
+    .block-label {
+        display: block;
+    }
+
+    #info {
+            width: 20%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            position:sticky;
+            float:right;
+            align-items: flex-end;
+            justify-self: end;
+            
+    
+    
     }
 /*media Queries laptop and upwards*/
 @media screen and  (min-widt: 992px) {
