@@ -25,10 +25,10 @@ Technologies Used
 Installation
 Deployment & Local Development
 Deployment
-The site is deployed using GitHub Pages   Smartphone Deal
+The site is deployed using GitHub Pages  (https://github.com/GetanehT/Smart-phone)
 To Deploy the site using GitHub Pages:
 1.	Login (or signup) to Github.
-2.	Go to the repository for this project, kera-cudmore/TheQuizArms.
+2.	Go to the repository for this project, https://getaneht.github.io/Smart-phone/
 3.	Click the settings button.
 4.	Select pages in the left hand navigation menu.
 5.	From the source dropdown select main branch and press save.
@@ -56,16 +56,6 @@ Home Page (index.html)
 
 
 
-
-
-
-
-
-
-
-
-
-x 
 Overview
 The Home page serves as the main landing page for visitors. It provides an overview of the best deals on the latest smartphones, highlighting exclusive offers and discounts on top brands like Apple and Samsung.
 Features
