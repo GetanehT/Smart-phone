@@ -24,9 +24,10 @@ body {
 /*header*/
 header {
     background-color: #fff;
-    padding: 0 1rem;
+    padding: min-widt;
     position: fixed;
     width: 100%;
+
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     z-index: 2;  
@@ -103,7 +104,7 @@ main {
 
 /* background image home*/
 #smart_image {
-    background: url('../images/dublin-city.webp') no-repeat center center/cover;
+    background: url('../images/backg.png') no-repeat center center/cover;
     width: 100%;
     height: 100vh; 
     position: fixed; 
@@ -151,13 +152,13 @@ header h1 {
     max-width: 800px;
     margin: 20px auto;
     padding: 80px;
-    background: #f9f8fa;
+    background: #c6c6c7;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 .container p{
     font-size: 1em;
-    color: #616060;
+    color: #fdfbfb;
     margin: 10px 0;
     text-align: center;
     
