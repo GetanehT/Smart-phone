@@ -146,7 +146,7 @@ header h1 {
     color: #333;
     text-align: center;
 }
-.container {
+/*.container {
     width: 100%;
     max-width: 800px;
     margin: 20px auto;
@@ -175,7 +175,8 @@ header h1 {
     padding: 10px;
 
 }
-/* List Styles */
+*/* List Styles 
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -183,38 +184,11 @@ ul {
 
 ul li {
     background: #e9ecef;
-    margin: 10px 0; /* Increased margin for more space between list items */
-    padding: 15px; /* Increased padding for more inner space */
+    margin: 10px 0; 
+    padding: 15px; 
     border-radius: 5px;
     font-size: 1.1em;
 }
-
-ul li span {
-    font-weight: bold;
-}
-
-section {
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
-}
-
-section:last-child {
-    border-bottom: none;
-}
-
-section h2 {
-    font-size: 1.8em;
-    color: #666;
-    margin-bottom: 10px;
-}
-
-section p {
-    font-size: 1em;
-    color: #555;
-    margin: 10px 0;
-    text-align: center;
-}
-
 
 section p:last-child {
     margin-bottom: 0;
