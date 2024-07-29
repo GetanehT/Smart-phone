@@ -169,7 +169,12 @@ header h1 {
     border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
- 
+section p {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+    text-align: center;
+}
 
 
 
