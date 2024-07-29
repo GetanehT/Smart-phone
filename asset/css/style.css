@@ -16,7 +16,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
+    position: relative; 
     font-family: 'roboto', sans-serif;
 
 }
@@ -29,7 +29,7 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
-
+    z-index: 2;  
     justify-content: space-between;
     align-items: baseline;
 }
@@ -94,20 +94,22 @@ nav {
 main {
 
     flex: 1 0 auto;
-    margin-top: 47px;
     padding: 1rem;
+    z-index: 1;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8); 
+    margin-top: 70px;
 }
 
 /* background image home*/
 #smart_image {
-    background: url('..//images/bg1.avif') no-repeat center center/cover;
+    background: url('../images/dublin-city.webp') no-repeat center center/cover;
     width: 100%;
-    height: 100vh; /* Full viewport height */
-    display: flex;
-    background-attachment: fixed;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    height: 100vh; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: -1;
     
 }
 
@@ -122,7 +124,6 @@ main {
 #iphone h1 {
     color: #03031f;
     font-weight: bold;
-    ;
     font: 2rem;
 }
 
@@ -131,15 +132,26 @@ main {
 }
 
 
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+    text-align: center;
+}
 .container {
-    width: 50%;
-    /* Adjust width for smaller screens */
-    max-width: 200px;
-    /* Example of setting a maximum width */
+    width: 100%;
+    max-width: 800px;
     margin: 20px auto;
-    /* Center horizontally with 20px margin */
-    padding: 20px;
-    background: #2d0250;
+    padding: 80px;
+    background: #f9f8fa;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
@@ -151,18 +163,34 @@ main {
     font-weight: bold;
     font-size: medium;
 }
+.container section {
+    margin: 30px 0; 
+    padding: 30px; 
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container section h3 {
+    text-align: justify;
+    padding: 10px;
 
-header {
-    text-align: center;
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
+}
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-header h1 {
-    font-size: 2.5em;
-    margin: 0;
-    color: #333;
-    text-align: center;
+ul li {
+    background: #e9ecef;
+    margin: 10px 0; /* Increased margin for more space between list items */
+    padding: 15px; /* Increased padding for more inner space */
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+ul li span {
+    font-weight: bold;
 }
 
 section {
