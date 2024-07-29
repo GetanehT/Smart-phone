@@ -146,7 +146,7 @@ header h1 {
     color: #333;
     text-align: center;
 }
-/*.container {
+.container {
     width: 100%;
     max-width: 800px;
     margin: 20px auto;
@@ -158,24 +158,11 @@ header h1 {
 
 
 
-.container p {
 
-    font-weight: bold;
-    font-size: medium;
-}
-.container section {
-    margin: 30px 0; 
-    padding: 30px; 
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.container section h3 {
-    text-align: justify;
-    padding: 10px;
 
-}
-*/* List Styles 
+
+
+*/* List Styles */
 
 ul {
     list-style-type: none;
@@ -197,8 +184,25 @@ section {
     padding: 20px 0;
     border-bottom: 1px solid #eee;
 }
+section:last-child {
+    border-bottom: none;
+}
 
-
+section h2 {
+    font-size: 1.8em;
+    color: #666;
+    margin-bottom: 10px;
+}
+section p {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+    text-align: center;
+}
+section p:last-child {
+  margin-bottom: 0;
+}
+/*footer*/
 footer {
     text-align: center;
     padding: 20px 0;
