@@ -189,10 +189,15 @@ ul li {
     border-radius: 5px;
     font-size: 1.1em;
 }
-
-section p:last-child {
-    margin-bottom: 0;
+ul li span {
+    font-weight: bold;
 }
+
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
 
 footer {
     text-align: center;
