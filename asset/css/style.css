@@ -32,9 +32,10 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     z-index: 2;  
-    justify-content: space-between;
-    align-items: baseline;
-    height: 90px;
+    justify-content:space-between;
+    align-items: center;
+    height: 130px;
+    
 }
 
 header a {
@@ -48,6 +49,10 @@ h1 {
     letter-spacing: 2px;
     color: #252525;
     text-align: center;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+
+
 }
 
 /*nav*/
@@ -65,32 +70,37 @@ h1 {
 .active {
     border-bottom: 1px solid;
 }
-
-/* navbar style with deopdown toggle*/
+/* Navigation styling */
 nav {
-    position: absolute;
-    background-color: #0c5692;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
-
+    position: fixed; /* Fixed positioning for the nav */
+    background-color: #0c5692; /* Background color */
+    width: 250px; /* Width of the nav */
+    height: 100%; /* Full height */
+    top: 0; /* Move 10px up from the top edge */
+    right: 0; /* Align to the right edge */
+    padding: 1rem; /* Padding inside the nav */
+    box-shadow: 0 2px 2px #3a3a3a; /* Box shadow */
+    display: none; /* Initially hidden */
+    z-index: 1; /* Ensure it is above other content */
+    transform: translateX(-10px); /* Start off-screen to the right */
+    transition: transform 0.3s ease, isplay 0.3s ease; /* Smooth transition effect */
 }
 
-/* nav toogle*/
-#nav-toggle:checked~nav {
-    display: block;
+/* Show nav when checkbox is checked */
+#nav-toggle:checked ~ nav {
+    display: block; 
+    transform: translateX(0); 
 }
 
+/* Toggle checkbox */
 #nav-toggle {
-    display: none;
+    display: none; 
 }
 
+/* Toggle label styling */
 .nav-toggle-label {
-    font-size: 2rem;
-
+    font-size: 2rem; 
+    cursor: pointer; 
 }
 
 /*main contet*/
@@ -126,6 +136,7 @@ main {
     background: #c6c6c7;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    justify-content:last baseline;
 }
 .container p{
     font-weight: bold;
