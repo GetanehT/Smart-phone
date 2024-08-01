@@ -299,17 +299,27 @@ header h1 {
 
 /*feed back form*/
 
-#feedback-form {
-    color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
-    flex: end;
+/*Form */
+#feedback {
+    background-position: center;
+    position: relative;
+    width: 100%;
 }
 
-#feedback-form>h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
+#feedback-form {
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    top: 150px;
 }
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+    .block-label {
+        display: block;
+    }
 
 .text-input {
     background: transparent;
@@ -375,7 +385,7 @@ footer {
 @media screen and (max-width: 767px) {
     .container {
         width: 90%;
-        /* Adjust width for mobile screens */
+        
     }
 
     header h1 {
@@ -487,30 +497,7 @@ footer {
 
 
 
-    /*Form */
-    #feedback {
-        background-position: center;
-        position: relative;
-        width: 100%;
-    }
-
-    #feedback-form {
-        max-width: 400px;
-        position: absolute;
-        left: 10%;
-        top: 150px;
-    }
-
-    .text-input:hover {
-        border-color: #f16c6b;
-    }
-
-
-    .block-label {
-        display: block;
-    }
-
-
+    
 
 /*media Queries laptop and upwards*/
 @media screen and (min-widt: 992px) {
