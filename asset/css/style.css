@@ -49,8 +49,8 @@ h1 {
     letter-spacing: 2px;
     color: #252525;
     text-align: center;
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    margin: 0; 
+    padding: 0; 
 
 
 }
@@ -72,18 +72,18 @@ h1 {
 }
 /* Navigation styling */
 nav {
-    position: fixed; /* Fixed positioning for the nav */
-    background-color: #0c5692; /* Background color */
-    width: 250px; /* Width of the nav */
-    height: 100%; /* Full height */
-    top: 0; /* Move 10px up from the top edge */
-    right: 0; /* Align to the right edge */
-    padding: 1rem; /* Padding inside the nav */
-    box-shadow: 0 2px 2px #3a3a3a; /* Box shadow */
-    display: none; /* Initially hidden */
-    z-index: 1; /* Ensure it is above other content */
-    transform: translateX(-10px); /* Start off-screen to the right */
-    transition: transform 0.3s ease, isplay 0.3s ease; /* Smooth transition effect */
+    position: fixed; 
+    background-color: #0c5692; 
+    width: 250px; 
+    height: 100%; 
+    top: 0; 
+    right: 0; 
+    padding: 1rem; 
+    box-shadow: 0 2px 2px #3a3a3a; 
+    display: none; 
+    z-index: 1; 
+    transform: translateX(-10px); 
+    transition: transform 0.3s ease, isplay 0.3s ease; 
 }
 
 /* Show nav when checkbox is checked */
@@ -154,7 +154,7 @@ main {
 }
 section p {
     font-size: 1em;
-    color: #555;
+    color: white;
     margin: 10px 0;
     text-align: center;
 }
@@ -191,12 +191,12 @@ section:last-child {
 
 section h2 {
     font-size: 1.8em;
-    color: #666;
+    color: white;
     margin-bottom: 10px;
 }
 section p {
     font-size: 1em;
-    color: #555;
+    color: white;
     margin: 10px 0;
     text-align: center;
 }
@@ -215,13 +215,13 @@ section p:last-child {
 
 
 #iphone h1 {
-    color: #03031f;
+    color: white;
     font-weight: bold;
     font: 2rem;
 }
 
 #iphone p {
-    color: #333333;
+    color: white;
 }
 
 
