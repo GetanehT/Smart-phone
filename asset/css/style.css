@@ -6,7 +6,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
 }
 
 /* General styles*/
@@ -19,7 +18,7 @@ body {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     background-color: #5b5c5e;
-    flex:1;
+    
 
 }
 
@@ -126,8 +125,6 @@ main {
     top: 0;
     left: 0;
     z-index: -2;
-    
-    
 }
 .container {
     width: 50%;
@@ -349,28 +346,29 @@ header h1 {
 
 /* footer */
 footer {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background: #f9f8fa;
-    color: white;
-    text-align: center;
-    padding: 0 1rem;
-    z-index: 2;
-    height: 20px;
-    flex:1;
-    bottom: 0;
     
+    width: 100%;
+    background: #5b5c5e; ;
+    color: white;
+    z-index: 2;
+    height: 80px;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    align-items: center; /* Center the content vertically */
+    justify-content: center
 }
 #social-network {
     
     width: 100%;
+    height:95px;
+    margin: 0;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #5b5c5e;
+    
 
 }
 
@@ -379,6 +377,26 @@ footer {
     font-size: 200%;
     padding: 10%;
     color: #3a3a3a;
+}
+
+#map-wrapper {
+    position: relative; /* Allows for absolute positioning of children */
+    width: 100%; /* Full width of the viewport */
+    height: 225px; /* Fixed height for the map section */
+    background-color: #f0f0f0; /* Optional: Background color */
+    bottom:1;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-end; /* Align content to the bottom */
+    padding: 5px; /* Optional: Padding around the iframe */
+    box-sizing: border-box; /* Includes padding in height calculation */
+    margin-top: auto; /* Pushes the section to the bottom */
+}
+
+#map-wrapper iframe {
+    width: 100%; /* Full width of the parent section */
+    height: 100%; /* Full height of the parent section */
+    border: 0; /* Remove default border */
 }
 
 /* Media Queries for Mobile (up to 767px) */
