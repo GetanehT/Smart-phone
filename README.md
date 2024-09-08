@@ -1,5 +1,9 @@
 # Smart-phone
 Smartphones Deal
+
+![responsive view](https://github.com/user-attachments/assets/436d9089-3f6f-4eb4-b0da-109712a7a3af)
+
+
 Project Overview
 This project is a website designed to provide the best deals on the latest smartphones. It features exclusive offers and discounts on top brands like Apple, Samsung, and more. The website is user-friendly and provides detailed information about various smartphone deals.
 Table of Contents
