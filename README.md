@@ -7,23 +7,94 @@ Smartphones Deal
 Project Overview
 This project is a website designed to provide the best deals on the latest smartphones. It features exclusive offers and discounts on top brands like Apple, Samsung, and more. The website is user-friendly and provides detailed information about various smartphone deals.
 Table of Contents
-1.	Features
-2.	Technologies Used
-3.	Installation
-4.	Usage
-5.	Content
-6.	Testing
-7.	Contributing
-Features
+## CONTENTS
+
+
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+  * [Features](#features)
+    * [The Home Page](#the-home-page)
+    * [The Game Page](#the-game-page)
+    * [The High Scores Page](#the-high-scores-page)
+    * [The 404 Error Page](#the-404-error-page)
+    * [Future Implementations](#future-implementations)
+  * [Accessibility](#accessibility)
+
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+
+* [Testing](#testing)
+  * [Solved Bugs](#solved-bugs)
+  * [Known Bugs](#known-bugs)
+  
+* [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
+ 
+  ## Design
+
+### Colour Scheme
+
+As the pages of the site have a background image, I wanted to keep the colour scheme used on the site quite small so as to not overwhelm users.
+
+* I have used `#ffffff` & `##000000` as the primary and secondary colours used for the sites text.
+* I have used `##5b5c5e` as the overlay used over the sites background image.
+
+### Typography
+
+Google Fonts was used to import the chosen fonts for use in the site.
+
+ ### Features
 •	Responsive design for optimal viewing on different devices.
 •	Navigation menu for easy access to different sections.
 •	Contact form for user feedback.
 •	Google Maps integration to show the physical location.
 •	Social media links for better connectivity.
+
+#### The Home Page
+Content
+Home Page (index.html)
+Overview
+The Home page serves as the main landing page for visitors. It provides an overview of the best deals on the latest smartphones, highlighting exclusive offers and discounts on top brands like Apple and Samsung.
+
+![home page](https://github.com/user-attachments/assets/d84c1af9-48d4-451a-86a5-aa74872ec1b5)
+
+
+Features
+•	Header: Contains the site logo and navigation menu.
+•	Main Content: This section includes an introduction to the website and highlights current deals and promotions.
+•	Feedback Section: Allows users to provide feedback through a form.
+•	Contact Information: Lists the store's open times, contact phone number, email address, and physical address.
+•	Google Maps: An embedded map showing the store's location.
+•	Footer: Contains links to social media profiles.
+Brand Pages
+iPhone Page (iphone.html)
+Overview
+The iPhone page focuses specifically on deals and offers related to Apple's iPhone models.
+Features
+•	Header: Same as the home page, with site logo and navigation menu.
+•	Main Content: Showcases various iPhone models available for sale, including prices, discounts, and detailed descriptions.
+•	Feedback Section: Similar feedback form as on the home page.
+•	Contact Information: Same contact details as on the home page.
+•	Footer: Same as the home page, with social media links.
+•	Footer: Same as the home page, with social media links.
+
+
 Technologies Used
 •	HTML5
 •	CSS3
-•	JavaScript
 •	Font Awesome for icons
 •	Google Maps Embed API
 Installation
@@ -52,34 +123,6 @@ To clone the repository:
 5.	Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 Usage
 Navigate through the website using the menu links to explore different sections. You can view the deals on iPhones and Samsung smartphones, provide feedback through the feedback form, and get in touch via the contact section.
-Content
-Home Page (index.html)
-
-
-
-
-
-
-Overview
-The Home page serves as the main landing page for visitors. It provides an overview of the best deals on the latest smartphones, highlighting exclusive offers and discounts on top brands like Apple and Samsung.
-Features
-•	Header: Contains the site logo and navigation menu.
-•	Main Content: This section includes an introduction to the website and highlights current deals and promotions.
-•	Feedback Section: Allows users to provide feedback through a form.
-•	Contact Information: Lists the store's open times, contact phone number, email address, and physical address.
-•	Google Maps: An embedded map showing the store's location.
-•	Footer: Contains links to social media profiles.
-Brand Pages
-iPhone Page (iphone.html)
-Overview
-The iPhone page focuses specifically on deals and offers related to Apple's iPhone models.
-Features
-•	Header: Same as the home page, with site logo and navigation menu.
-•	Main Content: Showcases various iPhone models available for sale, including prices, discounts, and detailed descriptions.
-•	Feedback Section: Similar feedback form as on the home page.
-•	Contact Information: Same contact details as on the home page.
-•	Footer: Same as the home page, with social media links.
-•	Footer: Same as the home page, with social media links.
 
  
                                                                                                                                                                                    
