@@ -32,17 +32,17 @@
                 <li><a href="about_us.html" class="active">About us</a></li>
             </ul>
         </nav>
-        </nav>
+
 
     </header>
 
     <!--main -->
     <main>
         <div id="about_image"></div>
-        <section id="mobile">
-        </section>
-        <section>
-            <section id="feedback">
+        <div id="mobile">
+        </div>
+        
+            <section class="feedback">
 
                 <form id="feedback-form" method="POST" action="https://formdump.codeinstitute.net">
                     <h2><i class="fa-solid fa-heartbeat"></i> Give us feed back!</h2>
@@ -58,11 +58,11 @@
 
                     <div>
 
-                        <label for="feedback" class="block-label">Feed back</label>
-                        <input type="text" name="feedback" id="feedback" class="text-input" required>
-                        <label for="feedback" class="block-label">How can we improve your experience with us?</label>
+                        <label for="feedback-input" class="block-label">Feed back</label>
+                        <input type="text" name="feedback" class="feedback text-input" id="feedback-input" required>
+                        <label for="feedback-textarea" class="block-label">How can we improve your experience with us?</label>
                         <br>
-                        <textarea id="feedback" rows="4" cols="40" name="feedback"></textarea>
+                        <textarea class="feedback" id="feedback-textarea" rows="4" cols="40" name="feedback"></textarea>
                         <input type="submit" class="label" value="submit">
                         <input type="reset" class="label" value="Referesh">
 
@@ -114,19 +114,9 @@
 
                 </section>
             </section>
-        </section>
+        
 
-        <!---<section id="map-wrapper">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19439.589095015763!2d13.
-            31810201476917!3d52.480065686212455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a850
-            5d8080ace9%3A0xd41d137fba8dfb16!2sMeraner%20Str.%2C%2010825%20Berlin-Bezirk%20Tempelhof-Sch%C3%B6neberg!5e0!3m2!1sen!2sde!4v1718237860044!5m2!1sen!2sde"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"> you can find us here</iframe>
-
-        </section> -->
-
-
-        <!--- </section> -->
+     
 
     </main>
 
@@ -135,14 +125,14 @@
         <footer>
 
             <ul id="social-network">
-                <li><a href="http://www.facebook.com/" target="_blank" rel="noopener"
-                        arial.label="visit our facebook page "><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="http://www.facebook.com/" target="_blank" rel="noopener">
+                       <i class="fa-brands fa-facebook"></i></a></li>
                 <li><a href="http://www.youtube.com/" target="_blank" rel="noopener"
-                        arial.label="visit our youtub page "><i class="fa-brands fa-youtube"></i></a></li>
+                       ><i class="fa-brands fa-youtube"></i></a></li>
                 <li><a href="http://www.instagram.com/" target="_blank" rel="noopener"
-                        arial.label="visit our instagram page "><i class="fa-brands fa-square-instagram"></i></a></li>
+                        ><i class="fa-brands fa-square-instagram"></i></a></li>
                 <li><a href="http://www.twitter.com/" target="_blank" rel="noopener"
-                        arial.label="visit our twitter page "><i class="fa-brands fa-twitter"></i></a></li>
+                       ><i class="fa-brands fa-twitter"></i></a></li>
             </ul>
 
         </footer>

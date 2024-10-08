@@ -235,7 +235,14 @@ section {
     border-bottom: 1px solid #eee;
 }
 
-
+.content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4em;
+    
+}
 section:last-child {
     border-bottom: none;
 }
@@ -352,16 +359,16 @@ header h1 {
     z-index: -2;
 }
 
-#feedback {
-    /*background-position: center;
-    position: relative;
-    width: 100%;*/
+.feedback{
+  
 
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
     padding-left: 150px;
+    padding-top: 4em;
+    
 
 }
 
