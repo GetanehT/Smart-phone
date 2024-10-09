@@ -81,6 +81,8 @@ Features
 •	Footer: Contains links to social media profiles.
 Brand Pages
 iPhone Page (iphone.html)
+
+[iphonepage]asset/images/iphonepage.png  
 Overview
 The iPhone page focuses specifically on deals and offers related to Apple's iPhone models.
 Features
