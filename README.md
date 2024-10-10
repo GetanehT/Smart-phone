@@ -82,7 +82,12 @@ Features
 Brand Pages
 iPhone Page (iphone.html)
 
+<<<<<<< HEAD
 ![iphone page](asset/images/iphonepage.png) 
+=======
+![iphone page](https://github.com/workspace/Smart-phone/asset/images/iphonepage.png) 
+            
+>>>>>>> 9b4cbad (add images for readme)
 
 Overview
 The iPhone page focuses specifically on deals and offers related to Apple's iPhone models.
