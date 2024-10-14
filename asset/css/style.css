@@ -1,11 +1,14 @@
 /*google font */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 /* astesisk wildcard selector to override default styles*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+    
 }
 
 /* General styles*/
@@ -17,7 +20,12 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+<<<<<<< HEAD
     background-color: #008000a3;
+=======
+    background-color: #95f1b9;
+    
+>>>>>>> 03a5958 (changing bg color)
 
 }
 
@@ -48,7 +56,9 @@ h1 {
     font-family: 'oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #000;
+    color: #0e021d;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 
 }
 
@@ -95,6 +105,10 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 03a5958 (changing bg color)
 }
 
 nav ul li {
@@ -107,8 +121,14 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+<<<<<<< HEAD
     color: #000;
     
+=======
+    /* Remove underline from links */
+    color: #000000;
+    /* Change link color */
+>>>>>>> 03a5958 (changing bg color)
 }
 
 /* Toggle checkbox */
@@ -163,8 +183,8 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 80px;
-    background: #c6c6c7;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background:  #010005;
+    box-shadow: 0 0 10px #f5f5f5;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -172,8 +192,8 @@ main {
 }
 
 .container p {
-    font-weight: bold;
-    color: #fdfbfb;
+    font-weight:lighter;
+    color: #f7f7f7;
     margin: 10px 0;
     text-align: center;
 
@@ -186,20 +206,63 @@ main {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-section p {
+#back_image {
+    background: url('../images/dublin-city.webp') no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+section {
+    text-align: center;
+}
+/*
+.section p, section h1 {
     font-size: 1em;
-    color: rgb(253, 253, 250);
+    color: rgb(9, 2, 36);
+    margin: 10px 0;
+}
+*/
+
+.desc {
+    font-size: 1em;
+    color: white; 
     margin: 10px 0;
     text-align: center;
+}
+
+section p h1 {
+    font-size: 1em;
+    color: white; 
+    margin: 10px 0;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
 }
 
 section p:last-child {
     margin-bottom: 0;
 }
 
-*
-/* List Styles */
+#subtitle p {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(247, 242, 242);
+    forced-color-adjust: black;
+}
+
+
+
+#sub h1 {
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(235, 232, 232);
+}
+
+
+
 
 ul {
     list-style-type: none;
@@ -255,6 +318,7 @@ section h2 {
 }
 
 
+<<<<<<< HEAD
 
 #iphone h1 {
     color: white;
@@ -269,14 +333,15 @@ section h2 {
 
 
 
+=======
+>>>>>>> 03a5958 (changing bg color)
 header h1 {
     font-size: 2.5em;
     margin: 0;
     padding: 30px;
-    color: #0e0202;
+    color:#ffffff;
     text-align: center;
 }
-
 
 
 /* image gallery*/
@@ -317,21 +382,28 @@ header h1 {
     justify-content: center;
     text-align: center;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #130227;
+    background-color: rgba(14, 7, 78, 0.7);
+    color: white;
     padding: 10px;
     transform: translateY(100%);
     transition: transform 0.3s;
     box-sizing: border-box;
 }
 
+.description >p {
+    color: white;
+}
+
+.descr {
+    color: white;;
+
+}
 .image-gallery .image-item:hover .description {
     transform: translateY(0);
 }
 
-/*feed back form*/
 
-/*Form */
+
 /* background image home*/
 #about_image {
     background: url('../images/background1.avif') no-repeat center center/cover;
@@ -343,8 +415,12 @@ header h1 {
     z-index: -2;
 }
 
+<<<<<<< HEAD
 .feedback{
   
+=======
+#feedback {
+>>>>>>> 03a5958 (changing bg color)
 
     display: flex;
     justify-content: center;
@@ -425,7 +501,7 @@ header h1 {
     flex-direction: row;
     justify-content: center;
     gap: 10px;
-    background: #5b5c5e;
+    background: #ffffff;
 
 
 }
@@ -436,8 +512,11 @@ header h1 {
     color: #3a3a3a;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 03a5958 (changing bg color)
 /* Media Queries for Mobile (up to 767px) */
 @media screen and (max-width: 767px) {
     header h1 {
@@ -537,10 +616,11 @@ header h1 {
         height: auto;
         left: auto;
         box-shadow: none;
+        width: 100%;
     }
 
     #menu {
-        display: flex;
+        display: flex; 
     }
 
     #menu>li {
