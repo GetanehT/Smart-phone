@@ -116,13 +116,32 @@ Features
 
 
 Overview
-The Samsung page focuses specifically on deals and offers related to Samsung Phone models.
+The About us  page focuses specifically on gives us customers feedback form and gives contact information and working hours and addres.
 Features
-*	Header: Same as the home page, with site logo and navigation menu.
-*	Main Content: Showcases various samsung Phone models available for sale, including prices, discounts, and detailed 
- descriptions.
-*	Footer: Same as the home page, with social media links.
-*	Footer: Same as the home page, with social media links.
+*	Responsive Navigation Menu
+* A responsive navigation bar that allows users to navigate to 
+  different pages (Home, iPhone, Samsung, About Us) on the site.
+* Includes a mobile-friendly menu that toggles open/close using 
+  a checkbox and a hamburger icon.
+*	Main Content: A feedback form that allows users to provide their first name, last name, email address, and feedback.
+* Includes a textarea where users can describe how the website can improve their experience.
+* Form submission handled via a POST request to an external service (https://formdump.codeinstitute.net).
+  
+# Contact Information
+* A detailed contact section providing business hours (opening/closing times), phone number, email, and physical address.
+* Displays information in a user-friendly table format.
+	Social Media Links
+* Links to various social media platforms (Facebook, YouTube, 
+  Instagram, Twitter) with icons.
+* External links are designed to open in a new tab for a smooth 
+  user experience.
+  #Font Awesome Integration
+* Includes Font Awesome icons for the social media links and feedback form (like the heartbeat icon) to enhance the visual appeal.
+   Mobile-Friendly Design
+*Fully responsive design for optimal viewing on various screen 
+ sizes, including mobile, tablet, and desktop.
+* Utilizes meta viewport tags and CSS to ensure a user-friendly experience across devices.
+  
 
 
 ### Technologies Used
