@@ -271,16 +271,7 @@ As part of continuous improvement and feature enhancement, several functionaliti
 
 (asset/images/Screenshot 2024-10-16 175802.png)
 
-|-- asset
-|   |-- css
-|   |   `-- style.css       # Contains all styles for the webpage
-|   |-- images              # Stores images used on the site
-|       `-- favicon.ico     # Favicon for the site
-|-- index.html              # Home page (smartphone deals)
-|-- iphone.html             # iPhone deals page
-|-- samsung.html            # Samsung deals page
-|-- about_us.html           # About Us page
-Technologies Used
+
 
 ### Technologies Used
 *	HTML5 : The core structure of the webpage.
