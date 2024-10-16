@@ -18,6 +18,7 @@ Table of Contents
     * [The Home Page](#the-home-page)
     * [The Iphone Page](#the-game-page)
     * [The Samsung Page](#the-samsung-page)
+    * [The About page](#the-about-us-page)
     * [The 404 Error Page](#the-404-error-page)
     * [Future Implementations](#future-implementations)
   * [Accessibility](#accessibility)
@@ -90,8 +91,6 @@ Features
 *	Header: Same as the home page, with site logo and navigation menu.
 *	Main Content: Showcases various iPhone   models available for 
   sale, including prices, discounts, and detailed descriptions.
-*	Feedback Section: Similar feedback form as on the home page.
-*	Contact Information: Same contact details as on the home page.
 *	Footer: Same as the home page, with social media links.
 *	Footer: Same as the home page, with social media links.
 
@@ -102,13 +101,26 @@ Features
 
 
 Overview
-The iPhone page focuses specifically on deals and offers related to Apple's iPhone models.
+The Samsung page focuses specifically on deals and offers related to Samsung Phone models.
 Features
 *	Header: Same as the home page, with site logo and navigation menu.
-*	Main Content: Showcases various iPhone models available for 
-  sale, including prices, discounts, and detailed descriptions.
-*	Feedback Section: Similar feedback form as on the home page.
-*	Contact Information: Same contact details as on the home page.
+*	Main Content: Showcases various samsung Phone models available for sale, including prices, discounts, and detailed 
+ descriptions.
+*	Footer: Same as the home page, with social media links.
+*	Footer: Same as the home page, with social media links.
+
+ ### About us page (about_us.html)
+
+![about_us page](asset/images/samsung.png)
+
+
+
+Overview
+The Samsung page focuses specifically on deals and offers related to Samsung Phone models.
+Features
+*	Header: Same as the home page, with site logo and navigation menu.
+*	Main Content: Showcases various samsung Phone models available for sale, including prices, discounts, and detailed 
+ descriptions.
 *	Footer: Same as the home page, with social media links.
 *	Footer: Same as the home page, with social media links.
 
