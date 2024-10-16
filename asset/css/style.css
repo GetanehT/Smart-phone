@@ -20,12 +20,10 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-<<<<<<< HEAD
-    background-color: #008000a3;
-=======
-    background-color: #95f1b9;
+    background-color: #008000a3
     
->>>>>>> 03a5958 (changing bg color)
+    
+
 
 }
 
@@ -34,7 +32,6 @@ body {
 header {
 
     background-color: #ffffff;
-    /* padding: 10px;*/
     position: fixed;
     z-index: 3;
     width: 100%;
@@ -56,8 +53,9 @@ h1 {
     font-family: 'oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #0e021d;
+    color: #0e011d;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
     
 
 }
@@ -105,30 +103,11 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-<<<<<<< HEAD
-=======
-    
->>>>>>> 03a5958 (changing bg color)
-}
 
-nav ul li {
-    margin-right: 20px;
-    /* Space between the links */
-}
-
-
-
-
-nav ul li a {
-    text-decoration: none;
-<<<<<<< HEAD
-    color: #000;
-    
-=======
     /* Remove underline from links */
     color: #000000;
     /* Change link color */
->>>>>>> 03a5958 (changing bg color)
+
 }
 
 /* Toggle checkbox */
@@ -139,12 +118,11 @@ nav ul li a {
 
 
 /* Nav toggel*/
+
 .nav-toggle:checked~nav {
     display: block;
 
-
 }
-
 
 
 /* Toggle label styling */
@@ -218,13 +196,13 @@ main {
 section {
     text-align: center;
 }
-/*
+
 .section p, section h1 {
     font-size: 1em;
     color: rgb(9, 2, 36);
     margin: 10px 0;
 }
-*/
+
 
 .desc {
     font-size: 1em;
@@ -250,7 +228,7 @@ section p:last-child {
     font-size: 2em;
     font-weight: bold;
     color: rgb(247, 242, 242);
-    forced-color-adjust: black;
+   /* forced-color-adjust: black; */
 }
 
 
@@ -318,10 +296,10 @@ section h2 {
 }
 
 
-<<<<<<< HEAD
+
 
 #iphone h1 {
-    color: white;
+    color: rgb(39, 3, 94);
     font-weight: bold;
     font: 2rem;
 }
@@ -331,15 +309,11 @@ section h2 {
 }
 
 
-
-
-=======
->>>>>>> 03a5958 (changing bg color)
 header h1 {
     font-size: 2.5em;
     margin: 0;
     padding: 30px;
-    color:#ffffff;
+    color:#040458;
     text-align: center;
 }
 
@@ -415,12 +389,8 @@ header h1 {
     z-index: -2;
 }
 
-<<<<<<< HEAD
-.feedback{
-  
-=======
+
 #feedback {
->>>>>>> 03a5958 (changing bg color)
 
     display: flex;
     justify-content: center;
@@ -512,11 +482,7 @@ header h1 {
     color: #3a3a3a;
 }
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 03a5958 (changing bg color)
 /* Media Queries for Mobile (up to 767px) */
 @media screen and (max-width: 767px) {
     header h1 {
@@ -640,8 +606,11 @@ header h1 {
 
     header h1 {
         font-size: 2em;
+       
     }
-
+h1 {
+    padding-top: 1em; 
+}
     section h2 {
         font-size: 1.5em;
         color: rgb(247, 245, 245);
