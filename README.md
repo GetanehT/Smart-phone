@@ -269,6 +269,7 @@ As part of continuous improvement and feature enhancement, several functionaliti
 
  ### File Structure
 
+(asset/images/Screenshot 2024-10-16 175802.png)
 
 |-- asset
 |   |-- css
