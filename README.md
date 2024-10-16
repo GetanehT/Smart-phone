@@ -111,7 +111,7 @@ Features
 
  ### About us page (about_us.html)
 
-![about_us page](asset/images/samsung.png)
+![about_us page](https://github.com/user-attachments/assets/436d9089-3f6f-4eb4-b0da-109712a7a3af)
 
 
 
