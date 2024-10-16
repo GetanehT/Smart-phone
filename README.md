@@ -102,12 +102,45 @@ Features
 
 Overview
 The Samsung page focuses specifically on deals and offers related to Samsung Phone models.
-Features
-*	Header: Same as the home page, with site logo and navigation menu.
-*	Main Content: Showcases various samsung Phone models available for sale, including prices, discounts, and detailed 
- descriptions.
-*	Footer: Same as the home page, with social media links.
-*	Footer: Same as the home page, with social media links.
+FeaturesFeatures
+1. Responsive Navigation Menu
+* A responsive navigation bar with links to various sections of 
+  the site, including Home, iPhone, Samsung, and About Us.
+* Hamburger icon for mobile-friendly navigation.
+2. SEO Optimizations
+* Metadata (description and keywords) added to improve search 
+  engine rankings for smartphone deals.
+* Optimized for keywords like "smartphone deals," "Samsung," 
+   and "mobile phone sales."
+3. Smartphone Deals Section
+*  A dedicated section showcasing various Samsung models with 
+   images, descriptions, and prices.
+*  Each phone model has an accompanying description detailing 
+   its features and price.
+*  Models featured include Samsung Ultra, Galaxy S24, Samsung 
+    23, and others.
+   
+4. Image Gallery
+*  An image gallery displaying multiple Samsung smartphone 
+   models with their respective descriptions and prices.
+*  User-friendly layout that allows users to view different 
+   phones easily.
+5. Social Media Links
+*  Social media links (Facebook, YouTube, Instagram, and 
+   Twitter) are integrated into the footer.
+*  Each link opens in a new tab and is accompanied by an 
+   appropriate Font Awesome icon for better user experience.
+   
+6. Footer Section
+* The footer contains social media links, making it easy for 
+  users to connect with the brand on various platforms.
+* Fully responsive and visually appealing icons powered by Font 
+  Awesome.
+7. Mobile-Friendly Design
+* The webpage is responsive and designed to look great on all 
+   devices, including desktops, tablets, and smartphones.
+*  Utilizes meta viewport tags and CSS to ensure a seamless 
+  user experience on all screen sizes.
 
  ### About us page (about_us.html)
 
@@ -127,18 +160,18 @@ Features
 * Includes a textarea where users can describe how the website can improve their experience.
 * Form submission handled via a POST request to an external service (https://formdump.codeinstitute.net).
   
-# Contact Information
+### Contact Information
 * A detailed contact section providing business hours (opening/closing times), phone number, email, and physical address.
 * Displays information in a user-friendly table format.
-	Social Media Links
+	### Social Media Links
 * Links to various social media platforms (Facebook, YouTube, 
   Instagram, Twitter) with icons.
 * External links are designed to open in a new tab for a smooth 
   user experience.
-  #Font Awesome Integration
+  ### Font Awesome Integration
 * Includes Font Awesome icons for the social media links and feedback form (like the heartbeat icon) to enhance the visual appeal.
-   Mobile-Friendly Design
-*Fully responsive design for optimal viewing on various screen 
+  ###  Mobile-Friendly Design
+* Fully responsive design for optimal viewing on various screen 
  sizes, including mobile, tablet, and desktop.
 * Utilizes meta viewport tags and CSS to ensure a user-friendly experience across devices.
   
