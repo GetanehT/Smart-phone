@@ -253,7 +253,19 @@ Features
  sizes, including mobile, tablet, and desktop.
 * Utilizes meta viewport tags and CSS to ensure a user-friendly experience across devices.
   
-
+### Future Implementations 
+As part of continuous improvement and feature enhancement, several functionalities and optimizations can be added to this smartphone deal website to further elevate user experience, business efficiency, and overall site performance. Here is a roadmap for future implementations:
+1. E-Commerce Integration
+* Shopping Cart and Checkout System: Implement a full e- 
+  commerce solution that includes a shopping cart, order 
+  summary, and secure checkout using payment gateways like 
+  PayPal, Stripe, or Square.
+* Product Filtering and Search: Allow users to filter products 
+  by price, brand, and other features such as camera quality, 
+  storage, and color options.
+* Wishlist Functionality: Enable users to create wishlists for 
+  saving products they are interested in, encouraging future 
+  purchases.
 
 ### Technologies Used
 *	HTML5
