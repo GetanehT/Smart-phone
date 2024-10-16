@@ -14,7 +14,6 @@ Table of Contents
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
   * [Imagery](#imagery)
-  * [Wireframes](#wireframes)
   * [Features](#features)
     * [The Home Page](#the-home-page)
     * [The Iphone Page](#the-game-page)
@@ -81,6 +80,22 @@ Features
   
 ### Brand Pages
 ### IPhone Page (iphone.html)
+
+![iphone page](asset/images/iphonepage.png)
+
+
+Overview
+The iPhone page focuses specifically on deals and offers related to Apple's iPhone models.
+Features
+*	Header: Same as the home page, with site logo and navigation menu.
+*	Main Content: Showcases various iPhone   models available for 
+  sale, including prices, discounts, and detailed descriptions.
+*	Feedback Section: Similar feedback form as on the home page.
+*	Contact Information: Same contact details as on the home page.
+*	Footer: Same as the home page, with social media links.
+*	Footer: Same as the home page, with social media links.
+
+  ### IPhone Page (iphone.html)
 
 ![iphone page](asset/images/iphonepage.png)
 
