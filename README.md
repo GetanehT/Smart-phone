@@ -95,9 +95,9 @@ Features
 *	Footer: Same as the home page, with social media links.
 *	Footer: Same as the home page, with social media links.
 
-  ### IPhone Page (iphone.html)
+  ### Samsung page (samsung.html)
 
-![iphone page](asset/images/samsung.png)
+![samsung page](asset/images/samsung.png)
 
 
 
