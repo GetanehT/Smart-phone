@@ -97,7 +97,8 @@ Features
 
   ### IPhone Page (iphone.html)
 
-![iphone page](asset/images/iphonepage.png)
+![iphone page](asset/images/samsung.png)
+
 
 
 Overview
