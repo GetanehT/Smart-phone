@@ -88,12 +88,49 @@ Features
 Overview
 The iPhone page focuses specifically on deals and offers related to Apple's iPhone models.
 Features
-*	Header: Same as the home page, with site logo and navigation menu.
-*	Main Content: Showcases various iPhone   models available for 
-  sale, including prices, discounts, and detailed descriptions.
-*	Footer: Same as the home page, with social media links.
-*	Footer: Same as the home page, with social media links.
 
+1. Responsive Navigation Menu
+* The header contains a navigation bar with links to various 
+ sections of the site, such as Home, iPhone, Samsung, and About 
+ Us.
+* A hamburger menu icon appears on smaller screen sizes for 
+ improved mobile navigation.
+2. Search Engine Optimization (SEO)
+* Meta tags (description and keywords) are added to optimize 
+  the page for search engines, targeting keywords like "iPhone 
+  deals," "smartphone offers," and "mobile phone sales."
+* The webpage is optimized for search engines to improve 
+   visibility.
+3. iPhone Deals Section
+* A dedicated section to highlight the latest deals on various 
+  iPhone models.
+* Each product is accompanied by high-quality images, detailed 
+  descriptions, and prices, ensuring that users can easily 
+  browse through the options.
+* Featured models include iPhone 15 Pro, iPhone 15 Pro Max, 
+  iPhone 14, and more.
+4. Image Gallery
+* A clean and user-friendly gallery showcasing different iPhone 
+  models.
+* Each image is paired with a product name, a brief 
+  description, and its price.
+* This layout ensures that users can quickly find the product 
+  that suits their needs.
+5. Social Media Integration
+* Social media icons are placed in the footer section, linking 
+  to the brand's Facebook, YouTube, Instagram, and Twitter 
+   pages.
+* These links open in a new tab for convenience and are 
+   accessible via Font Awesome icons.
+* Fully responsive icons improve the site's interactivity and 
+  engagement.
+6. Mobile-Friendly Design
+* The webpage is responsive, offering an optimal user 
+   experience across desktops, tablets, and mobile devices.
+* CSS and viewport meta tags are used to ensure that the page 
+  scales well on different devices, ensuring a great browsing 
+  experience.
+  
   ### Samsung page (samsung.html)
 
 ![samsung page](asset/images/samsung.png)
