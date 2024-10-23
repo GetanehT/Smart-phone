@@ -5,6 +5,7 @@ Smartphones Deal
 
 
 Project Overview
+
 This project is a website designed to provide the best deals on the latest smartphones. It features exclusive offers and discounts on top brands like Apple, Samsung, and more. The website is user-friendly and provides detailed information about various smartphone deals. 
 
 Table of Contents
@@ -31,7 +32,7 @@ Table of Contents
   * [Local Development](#local-development)
     * [How to Fork](#how-to-fork)
     * [How to Clone](#how-to-clone)
-
+*[validation](#for-html-and-css)
 * [Testing](#testing)
   * [Solved Bugs](#solved-bugs)
   * [Known Bugs](#known-bugs)
@@ -81,7 +82,18 @@ Smartphones Deal Webpage
 
 This project is a fully responsive webpage designed to showcase the latest deals on smartphones, including brands like Apple and Samsung. The site offers a clean and professional design with structured content sections highlighting exclusive deals, featured promotions, and limited-time offers. It is ideal for a mobile phone retail business aiming to promote its offerings to a wide range of customers.
 
+
+
+![Home page](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/homepage.png)
+
+
+
+
+
+
 ![home page](https://github.com/user-attachments/assets/d84c1af9-48d4-451a-86a5-aa74872ec1b5)
+
+
 
 
 
@@ -137,7 +149,18 @@ This project is a fully responsive webpage designed to showcase the latest deals
 ### Brand Pages
 ### IPhone Page (iphone.html)
 
-![iphone page](asset/images/iphonepage.png)
+[iphone page](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/iphonepg.png)
+
+
+
+
+
+
+
+
+![responsive page](asset/images/iphonepage.png)
+
+
 
 
 ### Overview
@@ -191,7 +214,16 @@ The iPhone page focuses specifically on deals and offers related to Apple's iPho
   
   ### Samsung page (samsung.html)
 
-![samsung page](asset/images/samsung.png)
+[samsung page](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/sampg.png)
+
+
+
+
+
+
+
+![responsive page](asset/images/samsung.png)
+
 
 
 
@@ -241,6 +273,15 @@ FeaturesFeatures
 
  ### About us page (about_us.html)
 
+
+[About-us page](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/abtpg.png)
+
+
+
+
+
+
+
 ![about_us page](https://github.com/user-attachments/assets/436d9089-3f6f-4eb4-b0da-109712a7a3af)
 
 
@@ -260,20 +301,28 @@ Features
 ### Contact Information
 * A detailed contact section providing business hours (opening/closing times), phone number, email, and physical address.
 * Displays information in a user-friendly table format.
+  
 	### Social Media Links
+
 * Links to various social media platforms (Facebook, YouTube, 
   Instagram, Twitter) with icons.
 * External links are designed to open in a new tab for a smooth 
   user experience.
+  
   ### Font Awesome Integration
+  
 * Includes Font Awesome icons for the social media links and feedback form (like the heartbeat icon) to enhance the visual appeal.
+* 
   ###  Mobile-Friendly Design
+  
 * Fully responsive design for optimal viewing on various screen 
  sizes, including mobile, tablet, and desktop.
 * Utilizes meta viewport tags and CSS to ensure a user-friendly experience across devices.
   
 ### Future Implementations 
-As part of continuous improvement and feature enhancement, several functionalities and optimizations can be added to this smartphone deal website to further elevate user experience, business efficiency, and overall site performance. Here is a roadmap for future implementations:
+
+* As part of continuous improvement and feature enhancement, several functionalities and optimizations can be added to this smartphone deal website to further elevate user experience, business efficiency, and overall site performance. Here is a roadmap for future implementations:
+  
 1. E-Commerce Integration
 * Shopping Cart and Checkout System: Implement a full e- 
   commerce solution that includes a shopping cart, order 
@@ -293,6 +342,7 @@ As part of continuous improvement and feature enhancement, several functionaliti
 
 
 ### Technologies Used
+
 * HTML5 : The core structure of the webpage.
 * CSS3:Used for styling and layout, ensuring the site             looks modern and professional.
 * Font: For icons in the navigation bar and footer         
@@ -346,7 +396,28 @@ To clone the repository:
 * Navigate through the website using the menu links to explore 
  different sections. You can view the deals on iPhones and 
  Samsung smartphones, provide feedback through the feedback 
- form, and get in touch via the contact section.                                                                                                                                             
+ form, and get in touch via the contact section.
+
+### Validation
+
+* I use   W3C Markup Validation Service validation website to 
+   check for errors  (https://validator.w3.org/nu/#textarea)
+* no error or warning for all pages 
+
+  [validation-index.html](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/indexpg.png)
+  
+* for i phone.html
+
+  
+   [validation-iphone.html](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/iphnoepgv.png)
+
+
+* for samsung.html
+  
+ 
+   [validation-samsung.html] https://github.com/GetanehT/Smart-phone/blob/main/asset/images/samvpg.png
+
+
 ### Testing
 
 To ensure that all features of the website are functioning correctly, follow these testing steps:
