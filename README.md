@@ -357,13 +357,18 @@ Deployment & Local Development
 
 * The site is deployed using GitHub Pages [smart-phone](https://getaneht.github.io/Smart-phone/)
 To Deploy the site using GitHub Pages:
-1.Login (or signup) to Github.
+1. Login (or signup) to Github.
+   
 2.Go to the repository for this project, [Getaneht/Smart- phone](https://getaneht.github.io/Smart-phone/)
+
 3.Click the settings button.
+
 4.Select pages in the left hand navigation menu.
+
 5.From the source dropdown select main branch and press save.
-6.The site has now been deployed, please note that this process 
-  may take a few minutes before the site goes live.
+
+6.The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
 
 ### Local Development
 
