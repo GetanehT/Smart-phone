@@ -5,9 +5,11 @@ Smartphones Deal
 
 
 Project Overview
+
 This project is a website designed to provide the best deals on the latest smartphones. It features exclusive offers and discounts on top brands like Apple, Samsung, and more. The website is user-friendly and provides detailed information about various smartphone deals. 
+
 Table of Contents
-## CONTENTS
+### CONTENTS
 
 
 * [Design](#design)
@@ -19,10 +21,8 @@ Table of Contents
     * [The Iphone Page](#the-game-page)
     * [The Samsung Page](#the-samsung-page)
     * [The About page](#the-about-us-page)
-    * [The 404 Error Page](#the-404-error-page)
     * [Future Implementations](#future-implementations)
   * [Accessibility](#accessibility)
-
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
@@ -32,7 +32,7 @@ Table of Contents
   * [Local Development](#local-development)
     * [How to Fork](#how-to-fork)
     * [How to Clone](#how-to-clone)
-
+*[validation](#for-html-and-css)
 * [Testing](#testing)
   * [Solved Bugs](#solved-bugs)
   * [Known Bugs](#known-bugs)
@@ -43,30 +43,53 @@ Table of Contents
   * [Media](#media)
   * [Acknowledgments](#acknowledgments)
  
-  ## Design
+  ### Design
 
 ### Colour Scheme
 
 As the pages of the site have a background image, I wanted to keep the colour scheme used on the site quite small so as to not overwhelm users.
 
-* I have used `#ffffff` & `##000000` as the primary and secondary colours used for the sites text.
-* I have used `##5b5c5e` as the overlay used over the sites background image.
+* I have used `##ffffff` & `##000000` as the primary and 
+   secondary colours used for the sites text.
+*   I have used `##` as the overlay used over the sites 
+    background image. 
+*   I have used ##3a3a3a for borders
+*   I have used for pargraph ##f7f7f7 and #4CAF50
+*  I have used `##rgba(0, 0, 0, 0.1)` as the box shadow 
+  container section.
 
 ### Typography
 
-Google Fonts was used to import the chosen fonts for use in the site.
+* Google Fonts was used to import the chosen fonts for use in 
+  the site.
+* For the body of the page I have used the google font [Roboto]('https://fonts.googleapis.com/css2family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* Roboto is a sans-serif font which has lovely clean lines. I 
+ have chosen to use a sans-serif font for the body of the page 
+ as studies have found that sans-serif fonts are generally more legible to read on a screen.
+
 
  ### Features
-*	Responsive design for optimal viewing on different devices.
-*	Navigation menu for easy access to different sections.
-*	Contact form for user feedback.
+* Responsive design for optimal viewing on different devices.
+* Navigation menu for easy access to different sections.
+* Contact form for user feedback.
 * Social media links for better connectivity.
 
 #### The Home Page
 Content
 Home Page (index.html)
+
 Smartphones Deal Webpage
+
 This project is a fully responsive webpage designed to showcase the latest deals on smartphones, including brands like Apple and Samsung. The site offers a clean and professional design with structured content sections highlighting exclusive deals, featured promotions, and limited-time offers. It is ideal for a mobile phone retail business aiming to promote its offerings to a wide range of customers.
+
+
+
+![Home page](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/homepage.png)
+
+
+
+
+
 
 ![home page](https://github.com/user-attachments/assets/d84c1af9-48d4-451a-86a5-aa74872ec1b5)
 
@@ -74,7 +97,10 @@ This project is a fully responsive webpage designed to showcase the latest deals
 
 
 
-Features
+
+
+### Features
+
 1. Responsive Navigation Bar
 * The header includes a logo and a navigation menu with links 
   to different sections such as Home, iPhone, Samsung, and 
@@ -123,19 +149,33 @@ Features
 ### Brand Pages
 ### IPhone Page (iphone.html)
 
-![iphone page](asset/images/iphonepage.png)
+[iphone page](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/iphonepg.png)
 
 
-Overview
+
+
+
+
+
+
+![responsive page](asset/images/iphonepage.png)
+
+
+
+
+### Overview
 The iPhone page focuses specifically on deals and offers related to Apple's iPhone models.
-Features
+
+### Features
 
 1. Responsive Navigation Menu
+   
 * The header contains a navigation bar with links to various 
  sections of the site, such as Home, iPhone, Samsung, and About 
  Us.
 * A hamburger menu icon appears on smaller screen sizes for 
  improved mobile navigation.
+
 2. Search Engine Optimization (SEO)
 * Meta tags (description and keywords) are added to optimize 
   the page for search engines, targeting keywords like "iPhone 
@@ -174,11 +214,21 @@ Features
   
   ### Samsung page (samsung.html)
 
-![samsung page](asset/images/samsung.png)
+[samsung page](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/sampg.png)
 
 
 
-Overview
+
+
+
+
+![responsive page](asset/images/samsung.png)
+
+
+
+
+### Overview
+
 The Samsung page focuses specifically on deals and offers related to Samsung Phone models.
 FeaturesFeatures
 1. Responsive Navigation Menu
@@ -203,6 +253,7 @@ FeaturesFeatures
    models with their respective descriptions and prices.
 *  User-friendly layout that allows users to view different 
    phones easily.
+   
 5. Social Media Links
 *  Social media links (Facebook, YouTube, Instagram, and 
    Twitter) are integrated into the footer.
@@ -222,11 +273,20 @@ FeaturesFeatures
 
  ### About us page (about_us.html)
 
+
+[About-us page](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/abtpg.png)
+
+
+
+
+
+
+
 ![about_us page](https://github.com/user-attachments/assets/436d9089-3f6f-4eb4-b0da-109712a7a3af)
 
 
 
-Overview
+### Overview
 The About us  page focuses specifically on gives us customers feedback form and gives contact information and working hours and addres.
 Features
 *	Responsive Navigation Menu
@@ -241,20 +301,28 @@ Features
 ### Contact Information
 * A detailed contact section providing business hours (opening/closing times), phone number, email, and physical address.
 * Displays information in a user-friendly table format.
+  
 	### Social Media Links
+
 * Links to various social media platforms (Facebook, YouTube, 
   Instagram, Twitter) with icons.
 * External links are designed to open in a new tab for a smooth 
   user experience.
+  
   ### Font Awesome Integration
+  
 * Includes Font Awesome icons for the social media links and feedback form (like the heartbeat icon) to enhance the visual appeal.
+* 
   ###  Mobile-Friendly Design
+  
 * Fully responsive design for optimal viewing on various screen 
  sizes, including mobile, tablet, and desktop.
 * Utilizes meta viewport tags and CSS to ensure a user-friendly experience across devices.
   
 ### Future Implementations 
-As part of continuous improvement and feature enhancement, several functionalities and optimizations can be added to this smartphone deal website to further elevate user experience, business efficiency, and overall site performance. Here is a roadmap for future implementations:
+
+* As part of continuous improvement and feature enhancement, several functionalities and optimizations can be added to this smartphone deal website to further elevate user experience, business efficiency, and overall site performance. Here is a roadmap for future implementations:
+  
 1. E-Commerce Integration
 * Shopping Cart and Checkout System: Implement a full e- 
   commerce solution that includes a shopping cart, order 
@@ -274,25 +342,30 @@ As part of continuous improvement and feature enhancement, several functionaliti
 
 
 ### Technologies Used
-*	HTML5 : The core structure of the webpage.
-*	CSS3:Used for styling and layout, ensuring the site 
-             looks modern and professional.
-*	Font: For icons in the navigation bar and footer 
-             sections.
-*	Web Manifest: For enabling Progressive Web App 
-      functionality.
+
+* HTML5 : The core structure of the webpage.
+* CSS3:Used for styling and layout, ensuring the site             looks modern and professional.
+* Font: For icons in the navigation bar and footer         
+  sections.
+* Web Manifest: For enabling Progressive Web App functionality.
   
 ### Installation
+
 Deployment & Local Development
+
 ### Deployment
-* The site is deployed using GitHub Pages  (https://github.com/GetanehT/Smart-phone)
+
+* The site is deployed using GitHub Pages 
+    [smart-phone](https://getaneht.github.io/Smart-phone/)
 To Deploy the site using GitHub Pages:
-1.	Login (or signup) to Github.
-2.	Go to the repository for this project, https://getaneht.github.io/Smart-phone/
-3.	Click the settings button.
-4.	Select pages in the left hand navigation menu.
-5.	From the source dropdown select main branch and press save.
-6.	The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+1.Login (or signup) to Github.
+2.Go to the repository for this project, [Getaneht/Smart- 
+  phone]https://getaneht.github.io/Smart-phone/
+3.Click the settings button.
+4.Select pages in the left hand navigation menu.
+5.From the source dropdown select main branch and press save.
+6.The site has now been deployed, please note that this process 
+  may take a few minutes before the site goes live.
 
 ### Local Development
 
@@ -300,39 +373,51 @@ To Deploy the site using GitHub Pages:
 
 To fork the repository:
 
-1.	Log in (or sign up) to Github.
-2.	Go to the repository for this project,  
-3.	Click the Fork button in the top right corner.
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project,[Smart-phone] 
+   (https://github.com/GetanehT/Smart-phone) 
+3. Click the Fork button in the top right corner.
    
 ### How to Clone
 
 To clone the repository:
 
-1.	Log in (or sign up) to GitHub.
-2.	Go to the repository for this project, kera-cudmore/TheQuizArms
-3.	Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-4.	Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-5.	Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
-Usage
-Navigate through the website using the menu links to explore different sections. You can view the deals on iPhones and Samsung smartphones, provide feedback through the feedback form, and get in touch via the contact section.                                                                                                                                                                             
-### About Us Page (aboutus.html)
-Overview
-The About Us page provides information about the company, its mission, and its team.
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [GetanehT/Smart-phonr](https://github.com/GetanehT/Smart-phone)
+3. Click on the code button, select whether you would like to 
+   clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current 
+   working directory to the location you want to use for the 
+   cloned directory.
+5.Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
-Features
+### Usage
 
-*	Header: Same as the home page, with site logo and navigation menu.
-*	Main Content: Includes a detailed description of the company's background, mission statement, and information about the team members.
+* Navigate through the website using the menu links to explore 
+ different sections. You can view the deals on iPhones and 
+ Samsung smartphones, provide feedback through the feedback 
+ form, and get in touch via the contact section.
 
-*	Feedback Form
-Users can provide their feedback through the form, which includes fields for first name, last name, email address, and their comments.
-*	Contact Information
-Provides details on open times, contact phone number, email address, and the physical address of the store.
-*	Footer: Same as the home page, with social media links.
+### Validation
+
+* I use   W3C Markup Validation Service validation website to 
+   check for errors  (https://validator.w3.org/nu/#textarea)
+* no error or warning for all pages 
+
+  ![validation-index.html](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/indexpg.png)
+  
+* for i phone.html
+
+  
+   ![validation-iphone.html](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/iphnoepgv.png)
 
 
-
+* for samsung.html
+  
  
+   ![validation-samsung.html] https://github.com/GetanehT/Smart-phone/blob/main/asset/images/samvpg.png
+
+
 ### Testing
 
 To ensure that all features of the website are functioning correctly, follow these testing steps:
@@ -356,33 +441,42 @@ o	Verify all links (internal and external) work properly.
 o	Verify that the map loads correctly and points to the correct location.
 6.	Social Media Links
 o	Click on each social media icon to ensure it opens the correct platform in a new tab.
-Common Sections Across All Pages
-Header
-•	Logo: Links to the home page.
-•	Navigation Menu: Links to the Home, iPhone, Samsung, and About Us pages.
-Feedback Section
-•	Feedback Form: Collects user feedback, including fields for first name, last name, email address, and feedback comments.
-Contact Information
-•	Open Times: Table showing the store's operating hours.
-•	Contact Details: Phone number and email address for customer inquiries.
-•	Physical Address: Store location address.
-Footer
-•	Social Media Links: Icons linking to the store's profiles on Facebook, YouTube, Instagram, and Twitter.
 
-Contributing
-Contributions are welcome! Please follow these steps:
-1.	Fork the repository.
-2.	Create a new branch:
-bash
-Copy code
-git checkout -b feature-branch
-3.	Make your changes and commit them:
-bash
-Copy code
-git commit -m "Add new feature"
-4.	Push to the branch:
-bash
-Copy code
-git push origin feature-branch
-5.	Open a pull request.
+### Common Sections Across All Pages
+
+Header
+
+* Logo: Links to the home page.
+* Navigation Menu: Links to the Home, iPhone, Samsung, and 
+About 
+  Us pages.
+
+Feedback Section
+
+* Feedback Form: Collects user feedback, including fields for 
+  first name, last name, email address, and feedback comments.
+  Contact Informatio
+* Open Times: Table showing the store's operating hours.
+* Contact Details: Phone number and email address for customer 
+  inquiries.
+* Physical Address: Store location address.
+
+Footer
+* Social Media Links: Icons linking to the store's profiles on Facebook, YouTube, Instagram, and Twitter.
+
+### Contributing
+
+* Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+   
+2.Create a new branch:
+     git checkout -b feature-branch
+     
+3.Make your changes and commit them:
+   git commit -m "Add new feature"
+   
+4.Push to the branch:
+  git push origin feature-branch
+  
+5.Open a pull request.
 
