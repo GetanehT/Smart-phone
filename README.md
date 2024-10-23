@@ -291,26 +291,29 @@ As part of continuous improvement and feature enhancement, several functionaliti
 
 
 ### Technologies Used
-*	HTML5 : The core structure of the webpage.
-*	CSS3:Used for styling and layout, ensuring the site 
-             looks modern and professional.
-*	Font: For icons in the navigation bar and footer 
-             sections.
-*	Web Manifest: For enabling Progressive Web App 
-      functionality.
+* HTML5 : The core structure of the webpage.
+* CSS3:Used for styling and layout, ensuring the site             looks modern and professional.
+* Font: For icons in the navigation bar and footer         
+  sections.
+* Web Manifest: For enabling Progressive Web App functionality.
   
 ### Installation
+
 Deployment & Local Development
+
 ### Deployment
+
 * The site is deployed using GitHub Pages 
-    [smart-phone](https://github.com/GetanehT/Smart-phone)
+    [smart-phone](https://getaneht.github.io/Smart-phone/)
 To Deploy the site using GitHub Pages:
-1.	Login (or signup) to Github.
-2.	Go to the repository for this project, https://getaneht.github.io/Smart-phone/
-3.	Click the settings button.
-4.	Select pages in the left hand navigation menu.
-5.	From the source dropdown select main branch and press save.
-6.	The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+1.Login (or signup) to Github.
+2.Go to the repository for this project, [Getaneht/Smart- 
+  phone]https://getaneht.github.io/Smart-phone/
+3.Click the settings button.
+4.Select pages in the left hand navigation menu.
+5.From the source dropdown select main branch and press save.
+6.The site has now been deployed, please note that this process 
+  may take a few minutes before the site goes live.
 
 ### Local Development
 
@@ -341,25 +344,7 @@ To clone the repository:
 * Navigate through the website using the menu links to explore 
  different sections. You can view the deals on iPhones and 
  Samsung smartphones, provide feedback through the feedback 
- form, and get in touch via the contact section.                                                                                                                                                                             
-### About Us Page (aboutus.html)
-Overview
-The About Us page provides information about the company, its mission, and its team.
-
-Features
-
-*	Header: Same as the home page, with site logo and navigation menu.
-*	Main Content: Includes a detailed description of the company's background, mission statement, and information about the team members.
-
-*	Feedback Form
-Users can provide their feedback through the form, which includes fields for first name, last name, email address, and their comments.
-*	Contact Information
-Provides details on open times, contact phone number, email address, and the physical address of the store.
-*	Footer: Same as the home page, with social media links.
-
-
-
- 
+ form, and get in touch via the contact section.                                                                                                                                             
 ### Testing
 
 To ensure that all features of the website are functioning correctly, follow these testing steps:
@@ -383,33 +368,37 @@ o	Verify all links (internal and external) work properly.
 o	Verify that the map loads correctly and points to the correct location.
 6.	Social Media Links
 o	Click on each social media icon to ensure it opens the correct platform in a new tab.
-Common Sections Across All Pages
-Header
-•	Logo: Links to the home page.
-•	Navigation Menu: Links to the Home, iPhone, Samsung, and About Us pages.
-Feedback Section
-•	Feedback Form: Collects user feedback, including fields for first name, last name, email address, and feedback comments.
-Contact Information
-•	Open Times: Table showing the store's operating hours.
-•	Contact Details: Phone number and email address for customer inquiries.
-•	Physical Address: Store location address.
-Footer
-•	Social Media Links: Icons linking to the store's profiles on Facebook, YouTube, Instagram, and Twitter.
 
-Contributing
+###Common Sections Across All Pages
+
+Header
+
+•Logo: Links to the home page.
+•Navigation Menu: Links to the Home, iPhone, Samsung, and About 
+  Us pages.
+
+Feedback Section
+
+•Feedback Form: Collects user feedback, including fields for 
+ first name, last name, email address, and feedback comments.
+ Contact Informatio
+• Open Times: Table showing the store's operating hours.
+•Contact Details: Phone number and email address for customer 
+ inquiries.
+• Physical Address: Store location address.
+
+Footer
+•Social Media Links: Icons linking to the store's profiles on Facebook, YouTube, Instagram, and Twitter.
+
+*Contributing
+
 Contributions are welcome! Please follow these steps:
-1.	Fork the repository.
-2.	Create a new branch:
-bash
-Copy code
-git checkout -b feature-branch
-3.	Make your changes and commit them:
-bash
-Copy code
-git commit -m "Add new feature"
-4.	Push to the branch:
-bash
-Copy code
-git push origin feature-branch
-5.	Open a pull request.
+1.Fork the repository.
+2.Create a new branch:
+     git checkout -b feature-branch
+3.Make your changes and commit them:
+   git commit -m "Add new feature"
+4.Push to the branch:
+  git push origin feature-branch
+5.Open a pull request.
 
