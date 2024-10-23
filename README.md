@@ -337,7 +337,7 @@ Features
 
  ### File Structure
 
-![File Structure](asset/images/Screenshot 2024-10-16 175802.png)
+![File-Structure](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/Screenshot%202024-10-16%20175802.png)
 
 
 
