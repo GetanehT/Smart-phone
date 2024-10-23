@@ -419,8 +419,15 @@ To clone the repository:
   
  
    ![validation-samsung.html](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/samvpg.png)
+  
+
+* for css validator i  use jgsaw (https://jigsaw.w3.org/css- 
+  validator/validator
+  
+     ![validation-css](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/cssv.png)
 
 
+  
 ### Testing
 
 To ensure that all features of the website are functioning correctly, follow these testing steps:
