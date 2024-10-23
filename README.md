@@ -19,10 +19,8 @@ Table of Contents
     * [The Iphone Page](#the-game-page)
     * [The Samsung Page](#the-samsung-page)
     * [The About page](#the-about-us-page)
-    * [The 404 Error Page](#the-404-error-page)
     * [Future Implementations](#future-implementations)
   * [Accessibility](#accessibility)
-
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
@@ -49,12 +47,23 @@ Table of Contents
 
 As the pages of the site have a background image, I wanted to keep the colour scheme used on the site quite small so as to not overwhelm users.
 
-* I have used `#ffffff` & `##000000` as the primary and secondary colours used for the sites text.
-* I have used `##5b5c5e` as the overlay used over the sites background image.
+* I have used `#ffffff` & `##000000` as the primary and 
+   secondary colours used for the sites text.
+*   I have used `##008000a3` as the overlay used over the sites 
+    background image. 
+*   I have used #3a3a3a for borders
+*   I have used for pargraph ##f7f7f7 and #4CAF50
+*  I have used `##rgba(0, 0, 0, 0.1)` as the box shadow 
+  container section.
 
 ### Typography
 
-Google Fonts was used to import the chosen fonts for use in the site.
+* Google Fonts was used to import the chosen fonts for use in the site.
+* For the body of the page I have used the google font [Roboto]('https://fonts.googleapis.com/css2? 
+  family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  Roboto is a sans-serif font which has lovely clean lines. I have chosen to use a sans-serif font for the body of the page as studies have found 
+  that sans-serif fonts are generally more legible to read on a screen.
+
 
  ### Features
 *	Responsive design for optimal viewing on different devices.
@@ -65,7 +74,9 @@ Google Fonts was used to import the chosen fonts for use in the site.
 #### The Home Page
 Content
 Home Page (index.html)
+
 Smartphones Deal Webpage
+
 This project is a fully responsive webpage designed to showcase the latest deals on smartphones, including brands like Apple and Samsung. The site offers a clean and professional design with structured content sections highlighting exclusive deals, featured promotions, and limited-time offers. It is ideal for a mobile phone retail business aiming to promote its offerings to a wide range of customers.
 
 ![home page](https://github.com/user-attachments/assets/d84c1af9-48d4-451a-86a5-aa74872ec1b5)
@@ -74,7 +85,8 @@ This project is a fully responsive webpage designed to showcase the latest deals
 
 
 
-Features
+### Features
+
 1. Responsive Navigation Bar
 * The header includes a logo and a navigation menu with links 
   to different sections such as Home, iPhone, Samsung, and 
@@ -126,16 +138,19 @@ Features
 ![iphone page](asset/images/iphonepage.png)
 
 
-Overview
+### Overview
 The iPhone page focuses specifically on deals and offers related to Apple's iPhone models.
-Features
+
+### Features
 
 1. Responsive Navigation Menu
+   
 * The header contains a navigation bar with links to various 
  sections of the site, such as Home, iPhone, Samsung, and About 
  Us.
 * A hamburger menu icon appears on smaller screen sizes for 
  improved mobile navigation.
+
 2. Search Engine Optimization (SEO)
 * Meta tags (description and keywords) are added to optimize 
   the page for search engines, targeting keywords like "iPhone 
@@ -178,7 +193,8 @@ Features
 
 
 
-Overview
+### Overview
+
 The Samsung page focuses specifically on deals and offers related to Samsung Phone models.
 FeaturesFeatures
 1. Responsive Navigation Menu
@@ -203,6 +219,7 @@ FeaturesFeatures
    models with their respective descriptions and prices.
 *  User-friendly layout that allows users to view different 
    phones easily.
+   
 5. Social Media Links
 *  Social media links (Facebook, YouTube, Instagram, and 
    Twitter) are integrated into the footer.
@@ -226,7 +243,7 @@ FeaturesFeatures
 
 
 
-Overview
+### Overview
 The About us  page focuses specifically on gives us customers feedback form and gives contact information and working hours and addres.
 Features
 *	Responsive Navigation Menu
@@ -285,7 +302,8 @@ As part of continuous improvement and feature enhancement, several functionaliti
 ### Installation
 Deployment & Local Development
 ### Deployment
-* The site is deployed using GitHub Pages  (https://github.com/GetanehT/Smart-phone)
+* The site is deployed using GitHub Pages 
+    [smart-phone](https://github.com/GetanehT/Smart-phone)
 To Deploy the site using GitHub Pages:
 1.	Login (or signup) to Github.
 2.	Go to the repository for this project, https://getaneht.github.io/Smart-phone/
@@ -300,21 +318,30 @@ To Deploy the site using GitHub Pages:
 
 To fork the repository:
 
-1.	Log in (or sign up) to Github.
-2.	Go to the repository for this project,  
-3.	Click the Fork button in the top right corner.
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project,[Smart-phone] 
+   (https://github.com/GetanehT/Smart-phone) 
+3. Click the Fork button in the top right corner.
    
 ### How to Clone
 
 To clone the repository:
 
-1.	Log in (or sign up) to GitHub.
-2.	Go to the repository for this project, kera-cudmore/TheQuizArms
-3.	Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-4.	Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-5.	Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
-Usage
-Navigate through the website using the menu links to explore different sections. You can view the deals on iPhones and Samsung smartphones, provide feedback through the feedback form, and get in touch via the contact section.                                                                                                                                                                             
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [GetanehT/Smart-phonr](https://github.com/GetanehT/Smart-phone)
+3. Click on the code button, select whether you would like to 
+   clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current 
+   working directory to the location you want to use for the 
+   cloned directory.
+5.Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+###Usage
+
+* Navigate through the website using the menu links to explore 
+ different sections. You can view the deals on iPhones and 
+ Samsung smartphones, provide feedback through the feedback 
+ form, and get in touch via the contact section.                                                                                                                                                                             
 ### About Us Page (aboutus.html)
 Overview
 The About Us page provides information about the company, its mission, and its team.
