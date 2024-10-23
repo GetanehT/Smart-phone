@@ -149,7 +149,7 @@ This project is a fully responsive webpage designed to showcase the latest deals
 ### Brand Pages
 ### IPhone Page (iphone.html)
 
-[iphone page](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/iphonepg.png)
+![iphone-page](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/iphonepg.png)
 
 
 
@@ -214,7 +214,7 @@ The iPhone page focuses specifically on deals and offers related to Apple's iPho
   
   ### Samsung page (samsung.html)
 
-[samsung page](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/sampg.png)
+![samsung page](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/sampg.png)
 
 
 
@@ -274,7 +274,7 @@ FeaturesFeatures
  ### About us page (about_us.html)
 
 
-[About-us page](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/abtpg.png)
+![About-us page](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/abtpg.png)
 
 
 
@@ -312,7 +312,7 @@ Features
   ### Font Awesome Integration
   
 * Includes Font Awesome icons for the social media links and feedback form (like the heartbeat icon) to enhance the visual appeal.
-* 
+ 
   ###  Mobile-Friendly Design
   
 * Fully responsive design for optimal viewing on various screen 
@@ -355,12 +355,10 @@ Deployment & Local Development
 
 ### Deployment
 
-* The site is deployed using GitHub Pages 
-    [smart-phone](https://getaneht.github.io/Smart-phone/)
+* The site is deployed using GitHub Pages [smart-phone](https://getaneht.github.io/Smart-phone/)
 To Deploy the site using GitHub Pages:
 1.Login (or signup) to Github.
-2.Go to the repository for this project, [Getaneht/Smart- 
-  phone]https://getaneht.github.io/Smart-phone/
+2.Go to the repository for this project, [Getaneht/Smart- phone](https://getaneht.github.io/Smart-phone/)
 3.Click the settings button.
 4.Select pages in the left hand navigation menu.
 5.From the source dropdown select main branch and press save.
@@ -415,7 +413,7 @@ To clone the repository:
 * for samsung.html
   
  
-   ![validation-samsung.html] https://github.com/GetanehT/Smart-phone/blob/main/asset/images/samvpg.png
+   ![validation-samsung.html](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/samvpg.png)
 
 
 ### Testing
