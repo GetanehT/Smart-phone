@@ -386,7 +386,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [GetanehT/Smart-phonr](https://github.com/GetanehT/Smart-phone)
+2. Go to the repository for project ![GetanehT/Smart-phonr](https://github.com/GetanehT/Smart-phone)
 3. Click on the code button, select whether you would like to 
    clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current 
