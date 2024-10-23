@@ -6,8 +6,9 @@ Smartphones Deal
 
 Project Overview
 This project is a website designed to provide the best deals on the latest smartphones. It features exclusive offers and discounts on top brands like Apple, Samsung, and more. The website is user-friendly and provides detailed information about various smartphone deals. 
+
 Table of Contents
-## CONTENTS
+### CONTENTS
 
 
 * [Design](#design)
@@ -41,34 +42,35 @@ Table of Contents
   * [Media](#media)
   * [Acknowledgments](#acknowledgments)
  
-  ## Design
+  ### Design
 
 ### Colour Scheme
 
 As the pages of the site have a background image, I wanted to keep the colour scheme used on the site quite small so as to not overwhelm users.
 
-* I have used `#ffffff` & `##000000` as the primary and 
+* I have used `##ffffff` & `##000000` as the primary and 
    secondary colours used for the sites text.
-*   I have used `##008000a3` as the overlay used over the sites 
+*   I have used `##` as the overlay used over the sites 
     background image. 
-*   I have used #3a3a3a for borders
+*   I have used ##3a3a3a for borders
 *   I have used for pargraph ##f7f7f7 and #4CAF50
 *  I have used `##rgba(0, 0, 0, 0.1)` as the box shadow 
   container section.
 
 ### Typography
 
-* Google Fonts was used to import the chosen fonts for use in the site.
-* For the body of the page I have used the google font [Roboto]('https://fonts.googleapis.com/css2? 
-  family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-  Roboto is a sans-serif font which has lovely clean lines. I have chosen to use a sans-serif font for the body of the page as studies have found 
-  that sans-serif fonts are generally more legible to read on a screen.
+* Google Fonts was used to import the chosen fonts for use in 
+  the site.
+* For the body of the page I have used the google font [Roboto]('https://fonts.googleapis.com/css2family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* Roboto is a sans-serif font which has lovely clean lines. I 
+ have chosen to use a sans-serif font for the body of the page 
+ as studies have found that sans-serif fonts are generally more legible to read on a screen.
 
 
  ### Features
-*	Responsive design for optimal viewing on different devices.
-*	Navigation menu for easy access to different sections.
-*	Contact form for user feedback.
+* Responsive design for optimal viewing on different devices.
+* Navigation menu for easy access to different sections.
+* Contact form for user feedback.
 * Social media links for better connectivity.
 
 #### The Home Page
