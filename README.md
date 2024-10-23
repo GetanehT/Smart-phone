@@ -51,10 +51,10 @@ As the pages of the site have a background image, I wanted to keep the colour sc
 
 * I have used `##ffffff` & `##000000` as the primary and 
    secondary colours used for the sites text.
-*   I have used `##` as the overlay used over the sites 
+*   I have used `##008000a3` as the overlay used over the sites 
     background image. 
 *   I have used ##3a3a3a for borders
-*   I have used for pargraph ##f7f7f7 and #4CAF50
+*   I have used for pargraph ##f7f7f7 and ##4CAF50
 *  I have used `##rgba(0, 0, 0, 0.1)` as the box shadow 
   container section.
 
@@ -386,7 +386,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for project ![GetanehT/Smart-phonr](https://github.com/GetanehT/Smart-phone)
+2. Go to the repository for project [GetanehT/Smart-phone](https://github.com/GetanehT/Smart-phone)
 3. Click on the code button, select whether you would like to 
    clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current 
