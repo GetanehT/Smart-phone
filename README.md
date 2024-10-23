@@ -339,7 +339,7 @@ To clone the repository:
    cloned directory.
 5.Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
-###Usage
+### Usage
 
 * Navigate through the website using the menu links to explore 
  different sections. You can view the deals on iPhones and 
@@ -369,36 +369,41 @@ o	Verify that the map loads correctly and points to the correct location.
 6.	Social Media Links
 o	Click on each social media icon to ensure it opens the correct platform in a new tab.
 
-###Common Sections Across All Pages
+### Common Sections Across All Pages
 
 Header
 
-•Logo: Links to the home page.
-•Navigation Menu: Links to the Home, iPhone, Samsung, and About 
+* Logo: Links to the home page.
+* Navigation Menu: Links to the Home, iPhone, Samsung, and 
+About 
   Us pages.
 
 Feedback Section
 
-•Feedback Form: Collects user feedback, including fields for 
- first name, last name, email address, and feedback comments.
- Contact Informatio
-• Open Times: Table showing the store's operating hours.
-•Contact Details: Phone number and email address for customer 
- inquiries.
-• Physical Address: Store location address.
+* Feedback Form: Collects user feedback, including fields for 
+  first name, last name, email address, and feedback comments.
+  Contact Informatio
+* Open Times: Table showing the store's operating hours.
+* Contact Details: Phone number and email address for customer 
+  inquiries.
+* Physical Address: Store location address.
 
 Footer
-•Social Media Links: Icons linking to the store's profiles on Facebook, YouTube, Instagram, and Twitter.
+* Social Media Links: Icons linking to the store's profiles on Facebook, YouTube, Instagram, and Twitter.
 
-*Contributing
+### Contributing
 
-Contributions are welcome! Please follow these steps:
-1.Fork the repository.
+* Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+   
 2.Create a new branch:
      git checkout -b feature-branch
+     
 3.Make your changes and commit them:
    git commit -m "Add new feature"
+   
 4.Push to the branch:
   git push origin feature-branch
+  
 5.Open a pull request.
 
