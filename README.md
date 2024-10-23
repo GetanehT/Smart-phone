@@ -404,18 +404,18 @@ To clone the repository:
    check for errors  (https://validator.w3.org/nu/#textarea)
 * no error or warning for all pages 
 
-  [validation-index.html](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/indexpg.png)
+  ![validation-index.html](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/indexpg.png)
   
 * for i phone.html
 
   
-   [validation-iphone.html](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/iphnoepgv.png)
+   ![validation-iphone.html](https://github.com/GetanehT/Smart-phone/blob/main/asset/images/iphnoepgv.png)
 
 
 * for samsung.html
   
  
-   [validation-samsung.html] https://github.com/GetanehT/Smart-phone/blob/main/asset/images/samvpg.png
+   ![validation-samsung.html] https://github.com/GetanehT/Smart-phone/blob/main/asset/images/samvpg.png
 
 
 ### Testing
