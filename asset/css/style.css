@@ -161,7 +161,7 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 80px;
-    background:  #010005;
+    background:  #6eca7b;
     box-shadow: 0 0 10px #f5f5f5;
     border-radius: 8px;
     display: flex;
@@ -198,7 +198,7 @@ section {
 }
 
 .section p, section h1 {
-    font-size: 1em;
+    font-size: 2em;
     color: rgb(9, 2, 36);
     margin: 10px 0;
 }
